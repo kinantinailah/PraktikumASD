@@ -1,7 +1,7 @@
 public class Mahasiswa12 {
-    class Mahasiswa {
+    
         String nama;
-        int nim;
+        String nim;
         String kelas;
         double ipk;
 
@@ -18,7 +18,7 @@ public class Mahasiswa12 {
             if (ipkBaru >= 0.0 && ipkBaru <= 4.0) {
             ipk = ipkBaru;}
                 else {
-                    System.out.println("IPK tidak valid. Harus antara 0.0 dan 4.0");
+                    System.out.println("Nilai IPK tidak valid. Harus antara 0.0 dan 4.0.");
                 }
         }
         String nilaiKinerja(){
@@ -33,5 +33,7 @@ public class Mahasiswa12 {
             }
         }
     }
+
     
-}
+    
+
